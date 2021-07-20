@@ -1,11 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 type matrix struct{
 	rows int
 	cols int
-	elements [10][10]int
+	elements [][]int
 }
 
 func (m matrix) number_of_rows() int{
@@ -21,41 +24,47 @@ func (m matrix) set_elements(i,j,element int){
 }
 
 
-func (m matrix) print_matrix(){
+func (m *matrix) print_matrix(){
+	data , err := json.MarshalIndent(m,""," ")
 
-	fmt.Println(m)
+	if err!=nil{
+		fmt.Println(err)
+	}
+	fmt.Println(string(data))
 }
-func add_matrices(m1, m2 matrix) matrix{
-	const n1  = 10
-	const n2 = 10
+func (m *matrix) add_matrices(addMatrix matrix) [][]int{
 
-	var e [n1][n2]int
-	//e:= [n1][n2]int{0}
-	m:= matrix{m1.rows,m1.cols,e}
-	for i:=0;i<m1.rows;i++{
-		for j:=0;j<m1.cols;j++{
-			m.elements[i][j]=m1.elements[i][j]+m2.elements[i][j]
+	for i:=0 ; i<len(m.elements) ; i++ {
+		for j:=0 ; j<len(m.elements[0]) ; j++ {
+			m.elements[i][j] = m.elements[i][j] + addMatrix.elements[i][j]
 		}
 	}
 
-		return m
+	return m.elements
 }
 func main(){
-	var e =[10][10]int {
+	var e =[][]int {
 		{1,2,3},
 		{4,5,6},{7,8,9}}
+
+	var e2 =[][]int {
+		{2,2,2},
+		{2,2,2},{2,2,2}}
 	m:= matrix{
 		3,
 		3,
 		e,
 	}
+
+	m2:= matrix{
+		3,
+		3,
+		e2,
+	}
 	fmt.Println(m.number_of_cols())
 	fmt.Println(m.number_of_rows())
 	m.set_elements(1,1,6)
 	fmt.Println(m.elements[0][0])
-	fmt.Println(add_matrices(m,m))
-	m.print_matrix()
+	fmt.Println(m.add_matrices(m2))
+	m2.print_matrix()
 }
-
-
-
