@@ -25,12 +25,12 @@ func (m matrix) set_elements(i,j,element int){
 
 
 func (m *matrix) print_matrix(){
-	data , err := json.MarshalIndent(m,""," ")
+	data , err := json.Marshal(m)
 
 	if err!=nil{
 		fmt.Println(err)
 	}
-	fmt.Println(string(data))
+	fmt.Println(data)
 }
 func (m *matrix) add_matrices(addMatrix matrix) [][]int{
 
@@ -66,5 +66,5 @@ func main(){
 	m.set_elements(1,1,6)
 	fmt.Println(m.elements[0][0])
 	fmt.Println(m.add_matrices(m2))
-	m2.print_matrix()
+	m.print_matrix()
 }

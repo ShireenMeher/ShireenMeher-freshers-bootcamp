@@ -40,7 +40,8 @@ func (c contractor) getSalary() int{
 func main(){
 	fullEmployee := fullTimeEmployee{"employee1",20,500}
 	contract := contractor{"employee2", 25, 100}
-	freelance := freeLancer{"emploee3", 10,10}
+	freelance := freeLancer{"employee3", 10,10}
+
 
 	fmt.Println(fullEmployee.getSalary())
 	fmt.Println(contract.getSalary())
