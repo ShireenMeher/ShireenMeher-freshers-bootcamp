@@ -9,7 +9,7 @@ import (
 
 var sum int =0
 
-func student_response(wg *sync.WaitGroup) {
+func student_response(wg *sync.WaitGroup, mtx *sync.Mutex) {
 	defer wg.Done()
 	var rdm2 int
 	var rdm1 float32
@@ -17,7 +17,10 @@ func student_response(wg *sync.WaitGroup) {
 	rdm2=rand.Intn(4)+1
 
 	time.Sleep(time.Duration(rdm1))
+
+	mtx.Lock()
 	sum+=rdm2
+	mtx.Unlock()
 
 }
 
@@ -25,8 +28,10 @@ func main(){
 	wg:= new(sync.WaitGroup)
 	wg.Add(200)
 
+	mtx:=new(sync.Mutex)
+
 	for i:=0;i<200;i++{
-		go student_response(wg)
+		go student_response(wg,mtx)
 	}
 
 	wg.Wait()
