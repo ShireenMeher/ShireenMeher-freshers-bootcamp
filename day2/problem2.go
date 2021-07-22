@@ -26,7 +26,7 @@ func main(){
 	wg.Add(200)
 
 	for i:=0;i<200;i++{
-		student_response(wg)
+		go student_response(wg)
 	}
 
 	wg.Wait()
