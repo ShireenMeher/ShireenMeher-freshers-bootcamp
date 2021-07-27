@@ -1,4 +1,4 @@
-//Controllers/User.go
+//Controllers/Student.go
 package Controllers
 import (
 	"day3/PROBLEM1/Models"

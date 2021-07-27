@@ -1,4 +1,4 @@
-//Models/User.go
+//Models/Student.go
 package Models
 import (
 	"day3/PROBLEM1/Config"

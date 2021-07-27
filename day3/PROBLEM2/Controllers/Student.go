@@ -1,13 +1,13 @@
-//Controllers/User.go
+
 package Controllers
 
 import (
-	"day3/PROBLEM2/Models"
+	"PROBLEM2/Models"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
-//GetUsers ... Get all users
+
 func GetStudent(c *gin.Context) {
 	var user []Models.Student
 	err := Models.GetAllStudents(&user)

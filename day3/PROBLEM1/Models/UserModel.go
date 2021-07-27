@@ -1,4 +1,4 @@
-//Models/UserModel.go
+//Models/StudentModel.go
 package Models
 type User struct {
 	Id      uint   `json:"id"`

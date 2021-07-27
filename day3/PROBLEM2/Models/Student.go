@@ -1,7 +1,7 @@
-//Models/User.go
+//Models/Student.go
 package Models
 import (
-	"day3/PROBLEM2/Config"
+	"PROBLEM2/Config"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 )

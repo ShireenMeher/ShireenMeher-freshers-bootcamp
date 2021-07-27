@@ -2,6 +2,48 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/davecgh/go-spew" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/denisenkom/go-mssqldb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/erikstmartin/go-testdb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/gin-contrib/sse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/gin-gonic/gin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/go-playground/locales" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/go-playground/universal-translator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/go-playground/validator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/go-sql-driver/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/golang-sql/civil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/golang/protobuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/jinzhu/gorm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/jinzhu/inflection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/jinzhu/now" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/leodido/go-urn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/lib/pq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/mattn/go-isatty" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/mattn/go-sqlite3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/pmezard/go-difflib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/stretchr/testify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/PROBLEM1/github.com/ugorji/go" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/davecgh/go-spew" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/denisenkom/go-mssqldb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/erikstmartin/go-testdb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/gin-contrib/sse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/gin-gonic/gin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/go-playground/locales" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/go-playground/universal-translator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/go-playground/validator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/go-sql-driver/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/golang-sql/civil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/golang/protobuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/jinzhu/gorm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/jinzhu/inflection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/jinzhu/now" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/leodido/go-urn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/lib/pq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/mattn/go-isatty" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/mattn/go-sqlite3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/pmezard/go-difflib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/stretchr/testify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/github.com/ugorji/go" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/day3/src/github.com/davecgh/go-spew" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/day3/src/github.com/denisenkom/go-mssqldb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/day3/src/github.com/erikstmartin/go-testdb" vcs="Git" />

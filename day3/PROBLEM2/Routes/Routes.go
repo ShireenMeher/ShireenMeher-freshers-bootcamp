@@ -1,7 +1,7 @@
 //Routes/Routes.go
 package Routes
 import (
-	"day3/PROBLEM2/Controllers"
+	"PROBLEM2/Controllers"
 	"github.com/gin-gonic/gin"
 )
 //SetupRouter ... Configure routes

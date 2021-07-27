@@ -1,11 +1,11 @@
-//Config/Database.go
 package Config
 import (
 	"fmt"
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 )
 var DB *gorm.DB
-
+// DBConfig represents db configuration
 type DBConfig struct {
 	Host     string
 	Port     int
@@ -18,8 +18,8 @@ func BuildDBConfig() *DBConfig {
 		Host:     "localhost",
 		Port:     3306,
 		User:     "root",
-		Password: "Password@1234",
-		DBName:   "applications",
+		Password: "Princy@02022000",
+		DBName:   "mydb",
 	}
 	return &dbConfig
 }
